@@ -88,7 +88,7 @@ while 1:
 	lng=send_And_receive.receive_server()
 	car_type=send_And_receive.receive_server()
 	car_ip=send_And_receive.receive_server()
-	print 'Received location data:'+lat[0]+''+lng[0]+' Car type:'+car_type[0]+' Car ip:'+car_ip[0]
+	print 'Received location data:'+lat[0]+' '+lng[0]+' Car type:'+car_type[0]+' Car ip:'+car_ip[0]
 
 	openChrome.openChrome(float(lat[0]) ,float(lng[0]))
 	trafficLightPlan(lat[0] ,lng[0],car_type[0],car_ip[0],TrafficLightIP)

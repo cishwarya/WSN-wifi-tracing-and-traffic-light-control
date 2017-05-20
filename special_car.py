@@ -149,8 +149,8 @@ print 'Location:'+str(res["lat"]) + " " + str(res["lng"]) + " "+ 'Accuracy:'+ st
 send( res["lat"], res["lng"],'special',ServerIP)
 print 'location information sent to server'
 
-while 1:
-	send_And_receive.receive_normal()
+#while 1:
+#	send_And_receive.receive_normal()
 
 print "Press CTRL+C to quit"
 try:

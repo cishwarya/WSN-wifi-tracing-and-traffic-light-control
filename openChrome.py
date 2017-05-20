@@ -13,7 +13,7 @@ CMD_CHROMEDRIVER = "./chromedriver"
 def openChrome(lat, lng):
 	#url = "https://maps.google.co.jp/maps?q=" + str(lat) + "," + str(lng) + "&z=12"
 	#url = "https://maps.google.com/maps?q=" + str(lat) + "," + str(lng) + "&z=12"
-	url ="http://maps.google.com/maps/api/staticmap?autoscale=1&size=640x640&maptype=roadmap&visual_refresh=true&markers=color:red|label:C|"+ str(lat) + "," + str(lng)  +"&markers=color:green|label:T|"+str(51.556097) + "," + str(9.941238)
+	url ="http://maps.google.com/maps/api/staticmap?autoscale=1&size=640x640&maptype=roadmap&visual_refresh=true&markers=color:red|label:C|"+ str(lat) + "," + str(lng)  +"&markers=color:green|label:T|"+str(51.555982) + "," + str(9.948226)
 
 
 
